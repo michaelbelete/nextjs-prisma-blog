@@ -24,7 +24,7 @@ model User {
   name  String?
   email String? @unique
   createdAt DateTime @default(now()) @map(name: "created_at")
-  updatedAt DateTime @upatedAt @map(name: "updated_at")
+  updatedAt DateTime @updatedAt @map(name: "updated_at")
   posts Post[]
   @@map(name: "users")
 }
