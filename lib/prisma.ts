@@ -11,4 +11,12 @@ if (process.env.NODE_ENV === 'production') {
   prisma = global.prisma;
 }
 
+declare global {
+  namespace NodeJS {
+    interface Global {
+      prisma: any;
+    }
+  }
+}
+
 export default prisma;
