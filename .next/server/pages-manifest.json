@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/drafts": "pages/drafts.js",
-  "/create": "pages/create.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
-  "/api/post": "pages/api/post.js"
+  "/": "pages/index.js"
 }
