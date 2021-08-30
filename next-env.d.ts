@@ -1,6 +1,12 @@
 /// <reference types="next" />
 /// <reference types="next/types/global" />
+
 declare global {
-    var prisma: PrismaClient;
+    namespace NodeJS {
+        interface Global {
+            prisma: any;
+        }
+    }
 }
+
 export { }
